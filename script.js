@@ -6,7 +6,7 @@ function palindrome(str){
 	  if(str[i] === ' '){
 		  continue;
 	  }
-	 cropStr += str[i];
+	 cropStr += str[i].toLowerCase();
   }
   let j= cropStr.length-1;
   let i = 0;
